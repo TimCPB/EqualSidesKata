@@ -1,4 +1,4 @@
 function findEvenIndex(arr)
 {
-  //Code goes here!
+  return 0
 }

@@ -1,3 +1,16 @@
+### Input/Output table
+
+| Input                         | Output |
+|-------------------------------|--------|
+| [2]                           | 0      |
+| [2, 3, 2]                     | 1      |
+| [4, 3, 7, 2, 5]               | 2      |
+| [12, 5, 7, 5]                 | 1      |
+| [1, 2, 3, 4, 3, 2, 1]         | 3      |
+| [20, 10, -80, 10, 10, 15, 35] | 0      |
+| [4, 3]                        | -1     |
+
+
 You are going to be given an array of integers. Your job is to take that array and find an index N where the sum of the integers to the left of N is equal to the sum of the integers to the right of N. If there is no index that would make this happen, return -1.
 
 For example:
